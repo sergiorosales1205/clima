@@ -1,0 +1,26 @@
+/* Configuración para que el footer se mantenga siempre abajo */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Color y estilo para el footer */
+footer.footer {
+  background-color: #212529; /* Color oscuro (similar a Bootstrap dark) */
+  color: #ffffff;            /* Texto blanco */
+  padding: 1rem 0;           /* Espaciado arriba y abajo */
+  text-align: center;        /* Texto centrado */
+}
+
+footer.footer p {
+  margin: 0;                 /* Elimina márgenes extra del texto */
+}
